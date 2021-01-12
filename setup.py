@@ -53,6 +53,7 @@ if __name__ == '__main__':
                 'jschars = grizzly.reduce.strategies.lithium:MinimizeJSChars',
                 'lines = grizzly.reduce.strategies.lithium:MinimizeLines',
                 'list = grizzly.reduce.strategies.testcases:MinimizeTestcaseList',
+                'attrs = grizzly.reduce.strategies.lithium:MinimizeAttrs',
             ],
         },
         extras_require=EXTRAS,
